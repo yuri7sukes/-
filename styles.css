@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('img/banner.png') center no-repeat;
+    color: white;
+    width: 80%; 
+    height: 293px;
+    margin: auto;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero h2, .hero p {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+}
